@@ -111,21 +111,23 @@ $(document).ready(function(){
     })
 })
 
-// Get a reference to the button and image elements
-const button = document.getElementById('dark-mode-button');
-const image = document.getElementById('my-image');
 
-// Add an event listener to the button that listens for a click event
-$(".switch").click(function(){
-  // When the button is clicked, check the current src attribute of the image
-  if (image.src === 'istp.png') {
-    // If the src attribute is set to the URL of the first image, change it to the URL of the second image
-    image.src = 'istpgreen.png';
-  } else {
-    // Otherwise, change it back to the URL of the first image
-    image.src = 'istp.png';
-  }
-});
+
+// // Get a reference to the button and image elements
+// const button = document.getElementById('dark-mode-button');
+// const image = document.getElementById('my-image');
+
+// // Add an event listener to the button that listens for a click event
+// $(".switch").click(function(){
+//   // When the button is clicked, check the current src attribute of the image
+//   if (image.src === 'istp.png') {
+//     // If the src attribute is set to the URL of the first image, change it to the URL of the second image
+//     image.src = 'istpgreen.png';
+//   } else {
+//     // Otherwise, change it back to the URL of the first image
+//     image.src = 'istp.png';
+//   }
+// });
 
 
 
